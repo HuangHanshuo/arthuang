@@ -4,7 +4,9 @@ Demo::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # root :to => 'welcome#index'
-  root 'welcome#index'
+  root 'people#index'
+
+  resources :people
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
