@@ -11,3 +11,11 @@
  *= require_self
  *= require_tree .
  */
+body {
+    background-color: #e5e5e5;
+    background-image: url(/assets/bg.png)
+}
+
+.nav.navbar-nav li {
+
+}
