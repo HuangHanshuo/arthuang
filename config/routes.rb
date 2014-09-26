@@ -7,6 +7,7 @@ Demo::Application.routes.draw do
   root 'dash#index'
 
   resources :people
+  resources :about
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

@@ -20,4 +20,5 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  title: "Arthur's world"
   hello: "Hello world"
