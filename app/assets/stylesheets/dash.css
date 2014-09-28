@@ -1,0 +1,39 @@
+#aboutconsole {
+    margin: 0 auto;
+    width: 800px;
+    height: 480px;
+    box-shadow: 0px 1px 8px 1.5px rgba(0, 0, 0, .35), 0px 20px 70px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.toolbar {
+    background-color: #efedee;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#efedee), to(#c1c1c1));
+    background-image: -webkit-linear-gradient(top, #efedee, #c1c1c1);
+    background-image: -moz-linear-gradient(top, #efedee, #c1c1c1);
+    background-image: -ms-linear-gradient(top, #efedee, #c1c1c1);
+    background-image: -o-linear-gradient(top, #efedee, #c1c1c1);
+    background-image: linear-gradient(top, #efedee, #c1c1c1);
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid #e0e0e0;
+    border-bottom: 0;
+    height: 30px;
+    position: relative;
+}
+.toolbar .title {
+    color: #000;
+    display: block;
+    font: 1.3em "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 #fff;
+}
+.editarea {
+    width: 800px;
+    height: 450px;
+    background-color:rgba(0,0,0,0.85);
+    border-radius: 0px 0px 5px 5px;
+}

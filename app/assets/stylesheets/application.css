@@ -11,11 +11,35 @@
  *= require_self
  *= require_tree .
  */
+
 body {
     background-color: #e5e5e5;
     background-image: url(/assets/bg.png)
 }
 
-.nav.navbar-nav li {
-
+.nav li a {
+    font-size: 18px;
 }
+a:hover:not(.btn), a:active:not(.btn){
+    color: #9E0000;
+    text-decoration: none;
+    -webkit-transform: translateY(-8px);
+    -moz-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+a:not(.btn) {
+    color: #00699E;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    transition: 300ms;
+    transition-property: initial;
+    transition-duration: 300ms;
+    transition-timing-function: initial;
+    transition-delay: initial;
+}
+
+.navbar-inverse .nav .active>a, .navbar-inverse .nav .active>a:hover, .navbar-inverse .nav .active>a:focus {
+    color: #fff;
+    background-color: #111;
+}
+
