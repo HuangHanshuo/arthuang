@@ -36,4 +36,33 @@
     height: 450px;
     background-color:rgba(0,0,0,0.85);
     border-radius: 0px 0px 5px 5px;
+    overflow: auto;
+    padding-bottom: 10px;
 }
+pre {
+    color: #ffffff;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: normal;
+    margin: 0;
+    padding: 9.5px 9.5px 0px 9.5px;
+}
+
+.editarea pre input {
+    background: 0 0;
+    outline: 0;
+    border: 0;
+    /*font-family: monospace;*/
+    /*text-shadow: 0 0 0 #ffffff;*/
+    /*font-size: 15px;*/
+    /*position: absolute  ;*/
+    color: #ffffff;
+    /*height: 30px;*/
+    /*line-height: 16px;*/
+}
+
+/*pre .input {*/
+
+/*}*/

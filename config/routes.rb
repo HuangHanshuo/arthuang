@@ -6,6 +6,8 @@ Demo::Application.routes.draw do
   # root :to => 'welcome#index'
   root 'dash#index'
 
+  get '/req' => 'dash#resp'
+
   resources :people
   resources :about
 
