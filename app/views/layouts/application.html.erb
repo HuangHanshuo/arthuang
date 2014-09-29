@@ -4,17 +4,20 @@
   <title><%= t "title" %></title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= favicon_link_tag 'arthur1.png' %>
+  <%= favicon_link_tag 'a-inverse.png' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
 <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
   <div class="container">
+    <div class="navbar-header" style="margin-right: 15px">
+        <!--<img src="<%= asset_url "logo.png" %>">-->
+    </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#about">About</a></li>
+        <li class="active"><a href="#about">about</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
