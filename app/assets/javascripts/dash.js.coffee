@@ -16,9 +16,9 @@ $ ->
         when "clear"
           $("pre").not(".input").remove()
         when "about"
-          $(".input").before "<pre>" + "Type \"about\" for help." + "</pre>"
+          $(".input").before "<pre>" + "Arthur Huang, graduated from 2011, software engineer, focus on web development." + "</pre>"
         when "ls"
-          $(".input").before "<pre>" + "Type \"ls\" for help." + "</pre>"
+          $(".input").before "<pre>" + "Java\tRuby\tRoR\tjQuery\tBackbone\tMarionette" + "</pre>"
         else
           $(".input").before "<pre>" + "Type \"help\" for help." + "</pre>"
 
