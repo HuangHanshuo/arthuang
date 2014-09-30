@@ -11,6 +11,40 @@
 // about supported directives.
 //
 //= require jquery
+//= require lib/underscore
+//= require lib/underscore-strings
+//= require lib/backbone
+//= require lib/backbone.marionette
+//= require lib/moment.min
+//= require lib/moment.timezone.min
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require_tree ./config
+//= require ./backbone/app
+
+//= require_tree ./backbone/entities
+//= require_tree ./backbone/lib
+//= require_tree ./backbone/apps
+
+//$(document).ready(function(){
+////    $(window).hashchange(hashchanged);
+//
+//    $(window).on('hashchange', hashchanged);
+//
+//    function hashchanged(){
+//        var url_split = $(location).attr('href').split("#")[1]
+//        $("li").removeClass("active")
+//        switch (url_split) {
+//            case "about":
+//                $("li.about").addClass("active")
+//                break;
+//            case "like":
+//                $("li.like").addClass("active")
+//                break;
+//            case "others":
+//                $("li.others").addClass("active")
+//                break;
+//        }
+//    }
+//});
