@@ -17,11 +17,12 @@
 //= require lib/backbone.marionette
 //= require lib/moment.min
 //= require lib/moment.timezone.min
+//= require jquery_ujs
+//= require turbolinks
 //= require_tree ./config
 //= require ./backbone/app
 
 //= require_tree ./backbone/entities
-//= require_tree ./backbone/lib
 //= require_tree ./backbone/apps
 
 //$(document).ready(function(){
