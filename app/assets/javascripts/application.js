@@ -17,15 +17,13 @@
 //= require lib/backbone.marionette
 //= require lib/moment.min
 //= require lib/moment.timezone.min
-//= require jquery_ujs
-//= require turbolinks
-//= require_tree .
 //= require_tree ./config
 //= require ./backbone/app
 
 //= require_tree ./backbone/entities
 //= require_tree ./backbone/lib
 //= require_tree ./backbone/apps
+//= require_tree .
 
 //$(document).ready(function(){
 ////    $(window).hashchange(hashchanged);
