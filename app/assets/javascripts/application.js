@@ -19,6 +19,7 @@
 //= require lib/moment.timezone.min
 //= require jquery_ujs
 //= require turbolinks
+//= require_tree .
 //= require_tree ./config
 //= require ./backbone/app
 
