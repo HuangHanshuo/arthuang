@@ -24,6 +24,7 @@
 //= require ./backbone/app
 
 //= require_tree ./backbone/entities
+//= require_tree ./backbone/lib
 //= require_tree ./backbone/apps
 
 //$(document).ready(function(){

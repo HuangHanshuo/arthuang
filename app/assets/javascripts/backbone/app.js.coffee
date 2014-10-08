@@ -2,15 +2,11 @@
 
   App = new Marionette.Application()
 
-  App.rootRouter = '/'
+#  App.rootRouter = '/'
 
   App.on 'before:start', ->
     App.addRegions
-#      mainRegion: '#dartContent'
-#      dialogRegion: '#dialogContent'
-#      flashRegion: "#flashContent"
-#      dialogFlashRegion: "#dialogFormFlash"
-#      headerRegion: "#dashboardHeader"
+      navRegion: '#navi_bar'
 
   #start
   App.on 'start', ->
