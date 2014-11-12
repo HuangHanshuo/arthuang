@@ -5,3 +5,4 @@
     initialize: ->
       bar = new Show.NavBar()
       App.navRegion.show bar
+      App.vent.on "nav:seleted", -> @

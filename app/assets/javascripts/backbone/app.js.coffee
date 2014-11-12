@@ -15,3 +15,4 @@
 
 $ ->
   Arthur.start()
+  console.log window.location.hash + Backbone.history.fragment

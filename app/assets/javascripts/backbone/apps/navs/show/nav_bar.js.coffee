@@ -3,6 +3,9 @@
   class Show.NavBar extends Marionette.LayoutView
     template: 'navs/show/nav_bar'
 
+#    initialize:
+#      App.vent.on("navi:to")
+
     events:
       "click li" : "addSelected"
 

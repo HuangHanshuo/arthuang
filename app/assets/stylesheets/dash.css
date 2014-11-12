@@ -54,15 +54,8 @@ pre {
     background: 0 0;
     outline: 0;
     border: 0;
-    /*font-family: monospace;*/
-    /*text-shadow: 0 0 0 #ffffff;*/
-    /*font-size: 15px;*/
-    /*position: absolute  ;*/
     color: #ffffff;
-    /*height: 30px;*/
-    /*line-height: 16px;*/
 }
-
-/*pre .input {*/
-
-/*}*/
+#index_canvas {
+    width: auto;
+}
