@@ -4,8 +4,8 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="about"><a href="#about">about</a></li>
-        <li class="like"><a href="#like">like</a></li>
-        <li class="others"><a href="#others">others</a></li>
+        <!--li class="like"><a href="#like">like</a></li>
+        <li class="others"><a href="#others">others</a></li-->
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
